@@ -32,7 +32,7 @@ class FormLogin extends HTMLElement {
             if (result.empty) {
                 alert("msv hoặc mk không chính xác");
             } else {
-                // alert("Đăng nhập thành công");
+                // alert("Đăng nhập thành");
                 saveCurrentUser(getDataFormDoc(result.docs[0], ['password']));
             }
         }
